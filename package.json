@@ -1,6 +1,6 @@
 {
   "name": "tag-reduce",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reduce template literals to a single value",
   "main": "index.js",
   "directories": {
@@ -8,6 +8,9 @@
   },
   "scripts": {
     "test": "tape test/*.js"
+  },
+  "engines" : {
+     "node" : ">8.0.0"
   },
   "repository": {
     "type": "git",
