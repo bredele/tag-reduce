@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/bredele/tag-reduce/issues"
   },
-  "homepage": "https://github.com/bredele/tag-reduce#readme"
+  "homepage": "https://github.com/bredele/tag-reduce#readme",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
 }
