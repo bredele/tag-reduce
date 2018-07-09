@@ -5,7 +5,10 @@
 [![Downloads](https://img.shields.io/npm/dm/tag-reduce.svg)](http://npm-stat.com/charts.html?package=tag-reduce)
 [![pledge](https://bredele.github.io/contributing-guide/community-pledge.svg)](https://github.com/bredele/contributing-guide/blob/master/guidelines.md)
 
-Create powerful [tagged templates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals).
+Create powerful [tagged templates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) that allow embedded expressions, multi-line string and string interpolation you can manipulate before outputting.
+
+Use with [intertag](https://github.com/bredele/intertag) to build the ultimate template engine!
+
 
 ## Usage
 
