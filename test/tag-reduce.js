@@ -20,3 +20,11 @@ test('should concatenate complex template literals', assert => {
     'hello world and universe!'
   )
 })
+
+test('should map template literal chunk with function', assert => {
+  assert.plan(1)
+  assert.equal(
+    reduce([['hello ', ''], 'world'], data => data.toUpperCase()),
+    'hello WORLD'
+  )
+})
